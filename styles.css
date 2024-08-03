@@ -1,3 +1,6 @@
+html {
+  font-family: monospace;
+}
 .Header {
   display: flex;
   margin: 10px;
@@ -36,4 +39,48 @@
   font-size: larger;
   text-align: center;
   padding: 10vh 10vw 10vh 10vw;
+}
+
+.services > h1 {
+  font-size: 32px;
+  display: flex;
+  padding: 10px;
+  background: rgba(4, 4, 44, 0.25);
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  padding: 10vh 5px 10vh 5px;
+}
+
+.service > img {
+  width: 50vw;
+  padding: 10px;
+  height: 80vh;
+  margin: 5px;
+}
+.service > p {
+  width: 50vw;
+  padding: 10px;
+  text-align: justify;
+  margin: 5px;
+}
+
+.footer {
+  height: 30vh;
+  background: rgb(118, 118, 118);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footerlogo > img {
+  height: 8vh;
+  padding: 20px;
+}
+#footeradrs {
+  font-size: 24px;
+  padding: 20px;
 }
